@@ -19,7 +19,7 @@ public class CreatingSubstring {
         String substr=s.substring(0);//starting from index 0 to the last index
         // System.out.println(substr);
 
-        CompareStirngs(s,substr);
+        isEqual(s,substr);
         sc.close();
     }
 }
